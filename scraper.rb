@@ -13,7 +13,9 @@ class K12SchoolScraper
         province "css=td.views-field-field-region-province-1"
         municipality "css=td.views-field-field-municipality"
         school_name "css=td.views-field-field-school-name"
-        programs "css=td.views-field-field-program-offerings"
+        programs "css=td.views-field-field-program-offerings" do |p|
+          p.split(', ')
+        end
         tvl_specializations "css=td.views-field-field-tvl-specializations" do |t|
           t.split(';')
         end
@@ -33,5 +35,5 @@ school_data = {}
   File.open(filename, "w+") {|f| f.write(JSON.pretty_generate(data)) }
 end
 
-json = Dir['data/*.json'].map { |f| JSON.parse(File.read(f)) }.flatten
-File.open("data.json", "w+") {|f| f.write(JSON.generate(json.reduce(&:deep_merge))) }
+json = Dir['data/*.json'].map { |f| JSON.parse(File.read(f).force_encoding("UTF-8")) }.flatten
+File.open("db.json", "w+") {|f| f.write(json.reduce(&:deep_merge).to_json) }
