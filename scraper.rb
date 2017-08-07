@@ -31,9 +31,9 @@ school_data = {}
   filename = 'data/' + page.to_s + '.json'
   data = scraper.scan(page)
   school_data = (page == 1 ? data : school_data.deep_merge(data))
-  puts school_data
+  # puts school_data
   File.open(filename, "w+") {|f| f.write(JSON.pretty_generate(data)) }
 end
 
 json = Dir['data/*.json'].map { |f| JSON.parse(File.read(f).force_encoding("UTF-8")) }.flatten
-File.open("db.json", "w+") {|f| f.write(json.reduce(&:deep_merge).to_json) }
+File.open("db.json", "w+") {|f| f.write(JSON.pretty_generate(json.reduce(&:deep_merge))) }
