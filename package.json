@@ -1,0 +1,17 @@
+{
+  "name": "deped-k12-shs-api",
+  "version": "1.0.0",
+  "description": "DepEd K-12 SHS Rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --ro https://cdn.rawgit.com/nedpals/shs-deped-k12-api/d87bffa/db.json"
+  },
+  "author": "nedpals",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.12.0"
+  },
+  "now": {
+    "alias": "shs-k12-api"
+  }
+}
