@@ -28,7 +28,7 @@ scraper = K12SchoolScraper.new
 school_data = {}
 (1..435).each do |page|
   puts "page: " + page.to_s
-  filename = 'data/' + page.to_s + '.json'
+  filename = 'aggregator/data/' + page.to_s + '.json'
   data = scraper.scan(page)
   school_data = (page == 1 ? data : school_data.deep_merge(data))
   # puts school_data
