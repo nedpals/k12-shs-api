@@ -1,5 +1,5 @@
 {
-  "name": "deped-k12-shs-api",
+  "name": "k12-shs-api",
   "version": "1.0.0",
   "description": "DepEd K-12 SHS Rest API",
   "main": "index.js",

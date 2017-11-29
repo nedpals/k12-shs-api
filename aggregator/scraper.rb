@@ -34,6 +34,3 @@ school_data = {}
   # puts school_data
   File.open(filename, "w+") {|f| f.write(JSON.pretty_generate(data)) }
 end
-
-json = Dir['data/*.json'].map { |f| JSON.parse(File.read(f).force_encoding("UTF-8")) }.flatten
-File.open("db.json", "w+") {|f| f.write(JSON.pretty_generate(json.reduce(&:deep_merge))) }
