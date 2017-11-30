@@ -4,7 +4,7 @@
   "description": "DepEd K-12 SHS Rest API",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --ro https://cdn.rawgit.com/nedpals/k12-shs-api/master/db.json"
+    "start": "json-server --routes routes.json --ro https://cdn.rawgit.com/nedpals/k12-shs-api/master/db.json"
   },
   "author": "nedpals",
   "license": "MIT",
