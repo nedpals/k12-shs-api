@@ -12,7 +12,9 @@ For the server, I used [typicode/json-server](https://github.com/typicode/json-s
 ## How to use it?
 ### Public API
 I maintained a public API that can be used in web projects and it's very easy to get aboard. It updates whenever there are new changes to this repo:
-[https://shs-k12-api.now.sh](https://shs-k12-api.now.sh)
+
+```[https://shs-k12-api.now.sh](https://shs-k12-api.now.sh)```
+
 For documentation regarding the use of the public API, click [here](PUBLIC-API-DOCS.md).
 
 ### Database
