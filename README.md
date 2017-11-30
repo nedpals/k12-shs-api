@@ -10,11 +10,17 @@ I scraped the DepEd's website using Ruby, [Wombat](https://github.com/felipecsl/
 For the server, I used [typicode/json-server](https://github.com/typicode/json-server) for light handling and fast public API setup.
 
 ## How to use it?
+### Public API
+I maintained a public API that can be used in web projects and it's very easy to get aboard. It updates whenever there are new changes to this repo:
+[https://shs-k12-api.now.sh](https://shs-k12-api.now.sh)
+For documentation regarding the use of the public API, click [here](PUBLIC-API-DOCS.md).
+
 ### Database
 1. You can simply consume it directly by using this URL:
 ```
-https://cdn.rawgit.com/nedpals/shs-deped-k12-api/master/output.json
+https://cdn.rawgit.com/nedpals/k12-shs-api/master/output.json
 ```
+
 or...
 2. Generate your own:
 ```bash
