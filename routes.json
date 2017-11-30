@@ -2,5 +2,5 @@
 	"/school/:school_id" : "/schools/?school_id=:school_id",
 	"/schools/:page" : "/schools?_page=:page",
 	"/schools/region/:region" : "/schools?region=:region",
-	"/schools/region/:region/:page" : "/schools?_page=:page&region=:region",
+	"/schools/region/:region/:page" : "/schools?_page=:page&region=:region"
 }
