@@ -1,4 +1,4 @@
-> ### **ATTENTION:** This project was no longer maintained. Please go to [https://github.com/sorxrob/k-to-12-shs-api](https://github.com/sorxrob/k-to-12-shs-api) for the the maintained fork by @sorxrob .
+> ### **ATTENTION:** This project is no longer maintained. Please go to [https://github.com/sorxrob/k-to-12-shs-api](https://github.com/sorxrob/k-to-12-shs-api) for the the maintained fork by @sorxrob .
 
 # DepEd K12 SHS API
 A list of Senior High Schools from DepEd now in an API.
