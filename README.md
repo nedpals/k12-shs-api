@@ -1,3 +1,5 @@
+> ### **ATTENTION:** This project was no longer maintained. Please go to [https://github.com/sorxrob/k-to-12-shs-api](https://github.com/sorxrob/k-to-12-shs-api) for the the maintained fork by @sorxrob .
+
 # DepEd K12 SHS API
 A list of Senior High Schools from DepEd now in an API.
 [Original data](http://www.deped.gov.ph/k-to-12/shs?page=431)
@@ -14,6 +16,9 @@ For the server, I used [typicode/json-server](https://github.com/typicode/json-s
 I maintained a public API that can be used in web projects and it's very easy to get aboard. It updates whenever there are new changes to this repo:
 
 [https://shs-k12-api.now.sh](https://shs-k12-api.now.sh)
+
+Here's also a mirror:
+http://139.59.105.62:5002/schools
 
 For documentation regarding the use of the public API, click [here](PUBLIC-API-DOCS.md).
 
