@@ -1,4 +1,4 @@
-> ### **ATTENTION:** This project is no longer maintained. Please go to [https://github.com/sorxrob/k-to-12-shs-api](https://github.com/sorxrob/k-to-12-shs-api) for the the maintained fork by @sorxrob .
+> ### **ATTENTION:** ~~This project is no longer maintained. Please go to [https://github.com/sorxrob/k-to-12-shs-api](https://github.com/sorxrob/k-to-12-shs-api) for the the maintained fork by @sorxrob~~. Repo deleted and the project is now unusable. See the [blog post](https://nedpals-blog.netlify.com/2019/01/updates-on-deped-k12-shs-api/) for details.
 
 # DepEd K12 SHS API
 A list of Senior High Schools from DepEd now in an API.
